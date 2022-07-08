@@ -1,0 +1,254 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #252525;
+  font-size: 15px;
+  line-height: 28px;
+}
+:root {
+  --bg-red: #4d0210;
+}
+
+
+.header {
+  box-shadow: 0 3px 0 0 rgba(0, 0, 0, 0.1);
+background-color: rgba(0, 0, 0, 0.95);
+}
+.header ul li a {
+  color: #fff;
+text-transform: uppercase;
+font-size: 12px;
+letter-spacing: 1px;
+font-weight: 700;
+font-family: 'Poppins', sans-serif;
+padding: 10px 15px !important;
+transition: all .4s linear;
+}
+.header .logo img {
+  width: 100px;
+}
+.header ul li a.playnow {
+  border: 1px solid #fff;
+border-radius: 4px;
+padding: 8px 30px !important;
+}
+.header ul li a:hover {
+  color: red;
+}
+.header ul li a.playnow:hover {
+border-color: red;
+color: #fff;
+background: red;
+}
+body {
+  padding-top: 100px;
+}
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+}
+.section-title {
+  font-weight: 700;
+  font-size: 28px;
+  color: #252525;
+  position: relative;
+padding-bottom: 15px;
+margin-bottom: 30px;
+}
+.section-title::before {
+  content: "";
+  display: block;
+  width: 240px;
+  height: 1px;
+  background: var(--bg-red);
+  position: absolute;
+  bottom: 0;
+}
+.borderline {
+  height: 1px;
+  width: 100px;
+  background: var(--bg-red);
+}
+.globalsensation ul {
+  padding-left: 14px;
+}
+.p-100 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.download {
+  border: 1px solid #252525;
+  background: var(--bg-red);
+  color: #fff !important;
+  transition: all .4s linear;
+  white-space: nowrap;
+}
+.download svg {
+  width: 20px;
+  color: #fff !important;
+  fill: #fff;
+  margin-left: -24px;
+  visibility: hidden;
+  transition: all .4s linear;
+}
+.download:hover svg {
+  margin-left: 0;
+  visibility: visible;
+}
+.bgcolorred {
+  background: var(--bg-red);
+}
+.amazingsc {
+  color: #fff;
+  text-transform: uppercase;
+letter-spacing: 2px;
+text-transform: uppercase;
+letter-spacing: 2px;
+padding-bottom: 10px;
+margin-bottom: 10px;
+}
+.amazingsc::before {
+  left: 0;
+  right: 0;
+  background: #d4931b;
+  margin: 0px auto;
+} 
+.section-sub {
+  color: #fff;
+}
+.section-sub {
+  color: #fff;
+}
+.amazing-content h3 {
+  color: #d4931b;
+  font-weight: 600;
+font-size: 20px;
+text-transform: capitalize;
+}
+.amazing-content p {
+  color: #e0d1bd;
+}
+.amazing-icon {
+  width: 60px !important;
+  height: 60px;
+  border: 1px solid #d4931b;
+  box-shadow: 0 0 0 2px #fff;
+  border-radius: 50%;
+  transition: all ease-in 0.25s;
+  display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.amazing-icon i {
+  font-size: 30px;
+  color: #d4931b;
+  width: 60px;
+  display: flex;
+align-items: center;
+justify-content: center;
+transition: all ease-in 0.25s;
+height: 100%;
+}
+.amazing-content {
+  margin-right: 20px;
+}
+.amazindall:hover .amazing-icon {
+  background: #fff;
+}
+.amazindall {
+  margin-bottom: 70px;
+}
+.iphone_fram {
+  width: 300px;
+  height: 526px;
+  overflow: hidden;
+  position: relative;
+  background-image: url(../img/iphone-holder.png);
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  background-position: center top;
+  overflow: hidden;
+}
+.phoneSlideimg {
+  position: absolute;
+  top: 50px;
+  left: 39px;
+  width: 216px;
+  overflow: hidden;
+  height: 380px;
+}
+.phoneSlideimg img {
+  height: 355px;
+}
+.phoneSlideimg .owl-dots button {
+  border: 1px solid #fff !important;
+  width: 11px !important;
+  height: 11px !important;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.phoneSlideimg .owl-dots button.active {
+  background: #fff;
+}
+.phoneSlideimg .owl-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.amazing-end .amazing-content {
+  margin-right: 0;
+  margin-left: 20px;
+}
+.section-title.section-title1.text-center::before {
+  left: 0;
+  right: 0;
+  margin: 0px auto;
+}
+.section-title.section-title1.text-center {
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+}
+.loopslide .owl-nav button {
+  width: 40px;
+  height: 40px;
+  background: var(--bg-red) !important;
+  border-radius: 50%;
+  margin-right: 15px;
+  position: relative;
+  display: flex;
+align-items: center;
+justify-content: center;
+}
+.loopslide .owl-nav button span {
+  color: #fff;
+  font-size: 38px;
+}
+.loopslide .owl-nav.disabled, .loopslide .owl-nav {
+  display: flex !important;
+  justify-content: center;
+  margin-top: 60px;
+}
+.contactus h2 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+}
+.contactus a {
+  text-decoration: navajowhite;
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.contactus {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #fff;
+}
+.copyright {
+  white-space: nowrap;
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-left: -36px;
+}
