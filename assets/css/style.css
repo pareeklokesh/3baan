@@ -252,3 +252,10 @@ justify-content: center;
   letter-spacing: 1px;
   margin-left: -36px;
 }
+.phoneSlideimg img {
+  filter: grayscale(100%);
+  transition: all .4s linear;
+}
+.phone-chat:hover .phoneSlideimg img {
+  filter: grayscale(0%);
+}
