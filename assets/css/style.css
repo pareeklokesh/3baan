@@ -95,8 +95,17 @@ margin-bottom: 30px;
   margin-left: 0;
   visibility: visible;
 }
+.bg-img {
+background: url(../img/sectionback-new.png) no-repeat;
+background-size: contain;
+background-position: center;
+
+}
+.globalsensation {
+  background-position: top right;
+}
 .bgcolorred {
-  background: var(--bg-red);
+  background-color: var(--bg-red);
 }
 .amazingsc {
   color: #fff;
