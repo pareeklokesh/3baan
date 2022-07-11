@@ -33,7 +33,7 @@
       <div class="w-auto">
         <nav class="navbar navbar-expand-lg">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"><img src="assets/img/menu.png" /></span>
+      <span class="navbar-toggler-icon"><img src="assets/img/menu.png" style="filter: invert(100%);" /></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <ul class="navbar-nav">
@@ -243,6 +243,18 @@ letter-spacing: 2px;">Screenshots</h2>
   </div>
 </div>
 
+<div class="container-fluid getintouch p-100">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h2 class="section-title text-center amazingsc">Get In Touch, Ask Us Anything</h2>
+        <p class="section-sub">Never hesitate to ask us all your queries. Let our experts answer all your questions and give you the best advice on poker game development.</p>
+<a href="#" class="btn download" style="border: 0;">Inquire Now <svg viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg></a>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 <!-- Footer -->
 
@@ -254,6 +266,9 @@ letter-spacing: 2px;">Screenshots</h2>
           <h2>Contact Us</h2>
           <a href="#">support@ludo.com</a>
         </div>
+        
+      </div>
+      <div class="col-md-12">
         <div class="w-100">
           <p class="copyright text-center m-0">© Copyright skillgameapp.com All Rights Reserved</p>
         </div>
@@ -288,7 +303,23 @@ owl.owlCarousel({
     margin:40,
     autoplay:true,
     autoplayTimeout:3000,
-    autoplayHoverPause:true
+    autoplayHoverPause:true,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:2,
+            nav:true
+        },
+        600:{
+            items:3,
+            nav:false
+        },
+        1000:{
+            items:5,
+            nav:true,
+            loop:false
+        }
+    }
 });
 </script>
 </body>
