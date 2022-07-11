@@ -277,6 +277,15 @@ justify-content: center;
   text-align: center;
   margin: 30px auto;
 }
+.getintouch .download {
+  padding: 12px 25px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.getintouch .download svg {
+  margin-top: -2px;
+}
+
 
 
 @media (max-width: 767px) {
