@@ -289,6 +289,52 @@ justify-content: center;
 .getintouch .download svg {
   margin-top: -2px;
 }
+.house h4 {
+  color: #d4931b;
+  font-weight: 600;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+.house {
+  padding-left: 40px;
+  padding-bottom: 40px;
+}
+.house h4 i {
+  font-style: normal;
+  font-size: 16px;
+  background: #fff;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  position: absolute;
+  left: -40px;
+  color: var(--bg-red);
+}
+.house p {
+  margin: 0;
+  color: #e0d1bd;
+}
+.house::before {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 100%;
+  background: #fff;
+  position: absolute;
+  left: 0;
+  top: 1px;
+  left: 12px;
+}
+.housesection .col-md-6 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.housesection .col-md-6 .house:last-child {
+  padding-bottom: 0;
+}
 
 
 
