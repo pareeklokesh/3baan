@@ -3,6 +3,10 @@ body {
   color: #252525;
   font-size: 15px;
   line-height: 28px;
+  transition: all .4s linear;
+}
+* {
+  transition: all .4s linear;
 }
 :root {
   --bg-red: #4d0210;
