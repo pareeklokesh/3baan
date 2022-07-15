@@ -312,10 +312,12 @@ justify-content: center;
   position: absolute;
   left: -40px;
   color: var(--bg-red);
+  transition: all .4s linear;
 }
 .house p {
   margin: 0;
   color: #e0d1bd;
+  transition: all .4s linear;
 }
 .house::before {
   content: "";
@@ -327,6 +329,13 @@ justify-content: center;
   left: 0;
   top: 1px;
   left: 12px;
+  transition: all .4s linear;
+}
+.house:hover::before, .house:hover h4 i {
+  background: #d4931b;
+}
+.house:hover p {
+  color: #d4931b;
 }
 .housesection .col-md-6 {
   display: flex;
@@ -334,6 +343,9 @@ justify-content: center;
 }
 .housesection .col-md-6 .house:last-child {
   padding-bottom: 0;
+}
+.housesection .section-title::before {
+  width: 155px;
 }
 
 
