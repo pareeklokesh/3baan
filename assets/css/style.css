@@ -431,6 +431,9 @@ justify-content: center;
 .footer-pad .social-network li a.icoLinkedin:hover {
   background-color: #007bb7;
 }
+.loopslide img {
+  border-radius: 8px;
+}
 
 
 
