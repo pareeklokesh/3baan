@@ -347,6 +347,20 @@ justify-content: center;
 .housesection .section-title::before {
   width: 155px;
 }
+.section-sub-title {
+  font-size: 20px;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+.content-all {
+  margin-bottom: 15px;
+}
+.faq-title::before {
+  width: 50px;
+}
+.header ul li a.active {
+  color: red;
+}
 
 
 
@@ -400,6 +414,9 @@ justify-content: center;
 }
 .globalsensation .section-title {
   margin-top: 30px;
+}
+.house {
+  padding-bottom: 20px !important;
 }
 
 }
